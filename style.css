@@ -1,0 +1,587 @@
+/* resetcss */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0px;
+}
+
+/* Class */
+.nav-bar {
+    padding: 12px 92px 12px 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    position: fixed;
+    width: 1256px;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.header {
+    width: cover;
+    background-image: url(image/background/bg-landscape.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: -683.5px;
+    z-index: 3;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 294px 0px 222px 0px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+/* Story Section */
+.story-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 100px;
+    padding: 128px 0px 128px 0px;
+}
+
+.story-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: nowrap;
+    gap: 32px;
+}
+
+.story-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Type Section */
+.type-section {
+    padding: 112px 0px 112px 0px;
+    width: cover;
+    background-image: url(image/background/bg-portrait.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 96px;
+}
+
+.type-image {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+    max-width: 936px;
+}
+
+.type-card {
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 72px;
+}
+
+.img-cta:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.type-card-text {
+    padding-top: 32px;
+}
+
+/* Shop-section */
+.shop-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 112px 92px 112px 92px;
+    row-gap: 96px;
+}
+
+.shop-card {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 14px;
+    width: 100%;
+}
+
+.shop-card-big {
+    width: 616px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom-style: ridge;
+}
+
+.shop-card-right {
+    width: 616px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shop-card-small {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom-style: ridge;
+}
+
+.shop-card-text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 24px 24px 24px 0px;
+    row-gap: 24px;
+    align-self: flex-start;
+}
+
+.star-icon {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    gap: 8px;
+}
+
+.fa-star {
+    height: 32px;
+    color: rgba(44, 44, 44);
+}
+
+/* Footer */
+.footer-section {
+    padding: 112px 92px 112px 92px;
+    width: cover;
+    background-image: url(image/background/bg-landscape.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+
+}
+
+.first-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+}
+
+input {
+    width: 360px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid rgba(44, 44, 44);
+    margin-right: 8px;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 16px;
+    padding-left: 24px;
+}
+
+.sns {
+    height: 48px;
+    width: auto;
+}
+
+.nav-column p {
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 16px;
+    color: rgba(44, 44, 44);
+
+}
+
+/* Style Guide */
+/* text */
+h1 {
+    font-family: "Comforter", cursive;
+    font-size: 96px;
+    font-weight: 400;
+    color: black;
+
+}
+
+h2 {
+    font-family: "Italiana", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    color: rgba(44, 44, 44);
+}
+
+h3 {
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(44, 44, 44);
+}
+
+h4 {
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(58, 59, 60);
+}
+
+h5 {
+    font-family: "Italiana", sans-serif;
+    font-size: 28px;
+    color: rgba(44, 44, 44);
+
+}
+
+
+p {
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(44, 44, 44);
+}
+
+/* General */
+.text-center {
+    text-align: center;
+}
+
+.text-width {
+    max-width: 830px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.img-reg {
+    width: cover;
+    height: 373px;
+    object-fit: cover;
+    padding: 5.5px 5.5px 0 5.5px;
+}
+
+.img-reg:hover {
+    transform: scale(101.75%);
+    cursor: pointer;
+    filter: brightness(75%);
+}
+
+.img-square {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    padding: 5.5px 24px 5.5px 5.5px;
+}
+
+.img-square:hover {
+    transform: scale(105.5%);
+    cursor: pointer;
+    filter: brightness(75%);
+}
+
+button {
+    padding: 12px 42px 12px 42px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    border: 1px solid rgba(44, 44, 44);
+    cursor: pointer;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 20px;
+}
+
+button:hover {
+    border: 1px solid palevioletred;
+    color: palevioletred;
+}
+
+/* Responsive */
+@media screen and (max-width: 430px) {
+
+    /* Class */
+    .nav-bar {
+        padding: 8px 0px 8px 0px;
+        justify-content: space-evenly;
+        gap: 0px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .header {
+        top: -538px;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        padding: 175px 24px 112px 24px;
+    }
+
+    /* Story Section */
+    .story-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 64px;
+        padding: 128px 24px 128px 24px;
+    }
+
+    .story-image {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-flow: wrap;
+        gap: 14px;
+    }
+
+    .story-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Type Section */
+    .type-section {
+        padding: 112px 24px 112px 24px;
+        gap: 64px;
+    }
+
+    .type-image {
+        justify-content: center;
+        max-width: 382px;
+        padding: 0px 24px 0px 24px;
+    }
+
+    .type-card {
+        padding-bottom: 64px;
+    }
+
+
+    /* Shop-section */
+    .shop-section {
+        padding: 112px 24px 112px 24px;
+        gap: 64px;
+    }
+
+    .shop-card {
+        /* display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center; */
+        column-gap: 0px;
+        row-gap: 0px;
+        max-width: 382px;
+    }
+
+    .shop-card-big {
+        max-width: cover;
+        height: auto;
+        /* display: flex;
+    flex-direction: column; */
+        justify-content: space-between;
+        /* border-bottom-style: ridge; */
+    }
+
+    .shop-card-right {
+        /* width: cover;
+        display: flex;
+        flex-direction: column; */
+        justify-content: flex-start;
+    }
+
+    .shop-card-small {
+        height: auto;
+        padding: 8px 0px 8px 0px;
+        width: 100%;
+        /* display: flex;
+        flex-direction: row;
+        border-bottom-style: ridge; */
+    }
+
+    .shop-card-text {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding: 0px 0px 0% 0px;
+        row-gap: 24px;
+        align-self: flex-start;
+        height: 100%;
+        justify-content: space-around;
+    }
+
+    .star-icon {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        gap: 8px;
+    }
+
+    .fa-star {
+        height: 32px;
+        color: rgba(44, 44, 44);
+    }
+
+    /* Footer */
+    .footer-section {
+        padding: 64px 24px 64px 24px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 64px;
+    }
+
+    .nav-column {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 24px;
+
+    }
+
+    .signup {
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+
+    }
+
+    .first-column {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    input {
+        width: 320px;
+        border-radius: 4px;
+        margin-right: 0px;
+        font-size: 14px;
+        padding-left: 24px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .sns {
+        height: 48px;
+        width: auto;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    /* Style Guide */
+    /* text */
+    h1 {
+        font-size: 72px;
+
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 20px;
+
+    }
+
+
+    p {
+        font-family: "Nanum Myeongjo", serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(44, 44, 44);
+    }
+
+    /* General */
+    .text-center {
+        text-align: center;
+    }
+
+    .img-circle {
+        width: 240px;
+        height: 240px;
+
+    }
+
+    .img-reg {
+        height: 240px;
+        padding-bottom: 14px;
+    }
+
+
+    .img-square {
+        width: 117px;
+        height: 117px;
+        padding: 5.5px 16px 5.5px 5.5px;
+    }
+
+
+    .story-image .img-circle {
+        width: 93px;
+        height: auto;
+    }
+}
