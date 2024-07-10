@@ -1,402 +1,169 @@
-/* resetcss */
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
-    margin: 0px;
-}
-
-.header {
-    width: cover;
-    background-image: url(image/type-hero/bg.jpg);
-    background-position: 0 60%;
-    background-repeat: no-repeat;
-    background-size: 120%;
-    position: sticky;
-    top: -542px;
-
-}
-
-.nav-bar {
-    padding: 12px 92px 12px 92px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    position: fixed;
-    width: 1256px;
-    z-index: 1;
-}
-
-a {
-    text-decoration: none;
-    color: rgba(44, 44, 44);
-}
-
-a:hover {
-    font-weight: bold;
-}
-
-.hero-section {
-    padding: 253.5px 92px 180px 92px;
-    gap: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-/* Menu */
-.menu {
-    display: flex;
-    flex-direction: row;
-    flex-flow: nowrap;
-    justify-content: space-around;
-    padding: 28px 92px 28px 92px;
-    background-color: rgba(255, 255, 255, 0.25);
-}
-
-/* Type section */
-.type-section {
-    display: flex;
-    flex-direction: column;
-    margin: 200px;
-    row-gap: 72px;
-}
-
-.type-card {
-    display: flex;
-    flex-direction: row;
-    column-gap: 24px;
-    align-items: center;
-    justify-content: center;
-}
-
-.type-card-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-    column-gap: 24px;
-    align-items: center;
-    justify-content: center;
-}
-
-.type-card-text {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    row-gap: 36px;
-    max-width: 508px;
-}
-
-.fa-book-open {
-    margin-right: 14px;
-}
-
-/* Footer */
-.footer-section {
-    padding: 112px 92px 112px 92px;
-    width: cover;
-    background-image: url(image/background/bg-landscape.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.nav-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 24px;
-
-}
-
-.signup {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 24px;
-
-}
-
-.first-column {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 32px;
-}
-
-input {
-    width: 360px;
-    height: 44px;
-    border-radius: 8px;
-    border: 1px solid rgba(44, 44, 44);
-    margin-right: 8px;
-    font-family: "Nanum Myeongjo", serif;
-    font-size: 16px;
-    padding-left: 24px;
-}
-
-.sns {
-    height: 48px;
-    width: auto;
-}
-.nav-column p {
-    font-family: "Nanum Myeongjo", serif;
-    font-size: 16px;
-    color: rgba(44, 44, 44);  
-
-}
-
-/* Style Guide */
-/* text */
-h1 {
-    font-family: "Comforter", cursive;
-    font-size: 96px;
-    font-weight: 400;
-    color: black;
-
-}
-
-h2 {
-    font-family: "Italiana", sans-serif;
-    font-size: 64px;
-    font-weight: 400;
-    color: rgba(44, 44, 44);
-}
-
-h3 {
-    font-family: "Nanum Myeongjo", serif;
-    font-size: 40px;
-    font-weight: 800;
-    color: rgba(44, 44, 44);
-}
-
-h4 {
-    font-family: "Nanum Myeongjo", serif;
-    font-size: 24px;
-    color: rgba(44, 44, 44);
-    font-weight: 400;
-}
-
-h5 {
-    font-family: "Italiana", sans-serif;
-    font-size: 28px;
-    color: rgba(44, 44, 44);
-
-}
-
-p {
-    font-family: "Nanum Myeongjo", serif;
-    font-size: 20px;
-    line-height: 24px;
-    color: rgba(44, 44, 44);
-}
-
-/* General */
-.text-center {
-    text-align: center;
-}
-
-.text-left {
-    display: flex;
-    align-items: flex-start;
-}
-
-.text-right {
-    display: flex;
-    align-items: flex-end;
-}
-
-.img-circle {
-    width: 50%;
-    max-width: 448px;
-    border-radius: 50%;
-    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
-}
-
-button {
-    padding: 12px 42px 12px 42px;
-    border: 1px solid rgba(44, 44, 44);
-    background-color: rgba(255, 255, 255, 0.25);
-    border-radius: 8px;
-    cursor: pointer;
-    font-family: "Nanum Myeongjo", serif;
-    font-size: 20px;
-    color: rgba(58, 59, 60);
-}
-
-button:hover {
-    border: 1px solid palevioletred;
-    color: palevioletred;
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-@media screen and (max-width: 430px) {
-    .header {
-        top: -486.5px;
-    }
-    .nav-bar {
-        padding: 8px 0px 8px 0px;
-        justify-content: space-evenly;
-        gap: 0px;
-        width: 100%;
-        z-index: 1;
-    }
-
-    a {
-        text-decoration: none;
-        color: rgba(44, 44, 44);
-        font-size: smaller;
-    }
-
-    a:hover {
-        font-weight: bold;
-    }
-
-    .hero-section {
-        padding: 160px 24px 280px 24px;
-        gap: 14px;
-        justify-content: center;
-        align-items: center;
-    }
-    /* Menu */
-    .menu {
-        /* display: flex; */
-        flex-direction: column;
-        flex-flow: wrap;
-        justify-content: space-between;
-        align-items: center;
-        gap: 12px;
-        padding: 12px 24px 12px 24px;
-    }
-    nav a {
-        width: 30%;
-    }
-
-    /* Type section */
-    .type-section {
-        margin: 64px;
-    }
-
-    .type-card {
-        flex-direction: column;
-    }
-
-    .type-card-reverse {
-        flex-direction: column;
-        column-gap: 24px;
-    }
-
-    .type-card-text {
-        width: 100%;
-        row-gap: 24px;
-        max-width: 382px;
-        padding-top: 24px;
-    }
-
-    .fa-book-open {
-        margin-right: 14px;
-    }
-
-    /* Footer */
-    .footer-section {
-        padding: 64px 24px 64px 24px;
-        flex-direction: column-reverse;
-        justify-content: center;
-        gap: 64px;
-    }
-
-    .nav-column {
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 24px;
-
-    }
-
-    .signup {
-        justify-content: center;
-        align-items: center;
-        gap: 24px;
-
-    }
-
-    .first-column {
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    input {
-        width: 320px;
-        margin-right: 0px;
-        font-size: 14px;
-        padding-left: 24px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 24px;
-    }
-
-
-    form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 14px;
-    }
-
-    /* Style Guide */
-    /* text */
-    h1 {
-        font-size: 58px;
-
-    }
-
-    h2 {
-        font-size: 36px;
-    }
-
-    h3 {
-        font-size: 32px;
-    }
-
-    h4 {
-        font-size: 16px;
-    }
-
-    h5 {
-        font-size: 20px;
-    }
-
-
-    p {
-        font-size: 16px;
-        text-align: center;
-    }
-
-    /* General */
-    .text-center {
-        text-align: center;
-    }
-
-    .text-left {
-        align-items: center;
-    }
-
-    .text-right {
-        align-items: center;
-    }
-
-    .img-circle {
-        width: 100%;
-        max-width: 240px;
-    }
-
-}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type</title>
+    <link rel="stylesheet" href="type.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comforter&family=Italiana&family=Nanum+Myeongjo:wght@400;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/845530bbba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav-bar">
+           
+            <!-- <a
+                href="index.html">
+                <p>Home</p>
+            </a> -->
+            <!-- <a>
+                <p>Story</p>
+            </a> -->
+            <a
+                href="type.html">
+                <p>Recipe</p>
+            </a>
+            <a
+            href="index.html"><img
+                src="image/logo.png"
+                style="height: 48px;"></a>
+            <!-- <a>
+                <p>Shop</p>
+            </a> -->
+            <a href="https://www.linkedin.com/in/i-am-joy/">
+                <p>Contact</p>
+            </a>
+        </div>
+        <div class="hero-section">
+            <h1>Types of Macarons</1>
+            <h4>Flavors that Delight, Moments that Last.</h4>
+        </div>
+        <nav class="menu">
+            <a href="#classic">
+                <p>Classic French</p>
+            </a>
+            <a href="#choco">
+                <p>Chocolate</p>
+            </a>
+            <a href="#fruit">
+                <p>Fruit Flavored</p>
+            </a>
+            <a href="#nut">
+                <p>Nut Flavored</p>
+            </a>
+            <a href="#seasonal">
+                <p>Seasonal</p>
+            </a>
+            <a href="#exotic">
+                <p>Exotic</p>
+            </a>
+        </nav>
+    </div>
+    <div class="type-section">
+        <div class="type-card">
+            <img class="img-circle" src="image/type/classic.png">
+            <div class="type-card-text text-left">
+                <h2 id="classic">Classic French</h2>
+                <p>These are the quintessential macarons, known for their delicate almond meringue shells that sandwich
+                    flavorful fillings. The shells are light, airy, and slightly crispy on the outside, with a soft,
+                    chewy interior. Classic flavors include vanilla, chocolate, coffee, pistachio, raspberry, lemon, and
+                    more.</p>
+                <button href=#><i class="fa-solid fa-book-open"></i>View recipe</button>
+            </div>
+        </div>
+        <div id="choco" class="type-card-reverse">
+            <img class="img-circle" src="image/type/choco.png">
+            <div class="type-card-text text-right">
+                <h2>Chocolate</h2>
+                <p>These macarons feature cocoa-infused shells or shells made with melted chocolate, resulting in a
+                    rich, decadent flavor. They are often filled with chocolate ganache or other chocolate-based
+                    fillings, offering a delightful treat for chocolate lovers.</p>
+                <button href=#><i class="fa-solid fa-book-open"></i>View recipe</button>
+            </div>
+        </div>
+        <div id="fruit" class="type-card">
+            <img class="img-circle" src="image/type/Fruit.png">
+            <div class="type-card-text text-left">
+                <h2>Fruit Flavored</h2>
+                <p>These macarons are infused with vibrant fruit flavors, adding a refreshing and tangy twist to the
+                    traditional almond base. Popular fruit flavors include strawberry, mango, passionfruit, orange, and
+                    blueberry, among others, creating a burst of fruity goodness in every bite.</p>
+                <button href=#><i class="fa-solid fa-book-open"></i>View recipe</button>
+            </div>
+        </div>
+        <div id="nut" class="type-card-reverse">
+            <img class="img-circle" src="image/type/nut.png">
+            <div class="type-card-text text-right">
+                <h2>Nut Flavored</h2>
+                <p>In addition to almonds, macarons can also be made with other nuts like pistachios, hazelnuts, and
+                    walnuts. These nut-flavored macarons bring a unique and nutty taste profile to the table, offering a
+                    delightful alternative for those seeking different flavor experiences.</p>
+                <button href=#><i class="fa-solid fa-book-open"></i>View recipe</button>
+            </div>
+        </div>
+        <div id="seasonal" class="type-card">
+            <img class="img-circle" src="image/type/Seasonal.png">
+            <div class="type-card-text text-left">
+                <h2>Seasonal</h2>
+                <p>Some bakeries and patisseries offer seasonal macarons that celebrate the flavors of each season. For
+                    example, you might find pumpkin spice macarons for fall, peppermint macarons for winter, and
+                    tropical-inspired macarons for summer, adding a touch of seasonal flair to these delightful treats.
+                </p>
+                <button href=#><i class="fa-solid fa-book-open"></i>View recipe</button>
+            </div>
+        </div>
+        <div id="exotic" class="type-card-reverse">
+            <img class="img-circle" src="image/type/exotic.png">
+            <div class="type-card-text text-right">
+                <h2>Exotic</h2>
+                <p>Macarons also come in a variety of exotic flavors that push the boundaries of creativity. Examples
+                    include matcha green tea, earl grey tea, lavender, rose, salted caramel, lychee, and more, offering
+                    a fusion of unique and adventurous tastes.</p>
+                <button href=#><i class="fa-solid fa-book-open"></i>View recipe</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section">
+        <div class="first-column">
+            <img src="image/footer/logo.png">
+            <div class="nav-column">
+                <a
+                    href="index.html">
+                    <p>Home</p>
+                </a>
+                <!-- <a>
+                    <p>Story</p>
+                </a> -->
+                <a
+                    href="type.html">
+                    <p>Recipe</p>
+                </a>
+                <!-- <a>
+                    <p>Shop</p>
+                </a> -->
+                <a>
+                    <p>Contact</p>
+                </a>
+            </div>
+        </div>
+        <div class="signup">
+            <h2>Newsletter Signup</h2>
+            <form>
+                <input type="email" placeholder="Your Email">
+                <button type="submit">Submit</button>
+            </form>
+            <div class="row">
+                <img class="sns" src="image/footer/fb.png">
+                <img class="sns" src="image/footer/ig.png">
+                <img class="sns" src="image/footer/yt.png">
+            </div>
+        </div>
+</body>
+
+</html>
